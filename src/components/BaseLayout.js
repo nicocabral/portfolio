@@ -29,9 +29,7 @@ export default function BaseLayout() {
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item flexGrow={1}>
-               <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
-               </Routes>
+               <Home/>
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
